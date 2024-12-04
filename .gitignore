@@ -1,0 +1,12 @@
+/.vscode/settings.json
+
+/*build*/
+/flash/
+/asus_bsp/
+/local/
+
+/out.txt
+/*secret*
+
+.venv/
+__pycache__/

@@ -1,0 +1,47 @@
+{
+	"folders": [
+		{
+			"name": "Yocto Project",
+			"path": "."
+		},
+	],
+	"settings": {
+		"python.autoComplete.extraPaths": [
+			"${workspaceFolder}/sources/poky/bitbake/lib",
+			"${workspaceFolder}/sources/poky/meta/lib"
+		],
+		"python.analysis.extraPaths": [
+			"${workspaceFolder}/sources/poky/bitbake/lib",
+			"${workspaceFolder}/sources/poky/meta/lib"
+		],
+		"files.associations": {
+			"*.conf": "bitbake",
+			"*.inc": "bitbake"
+		},
+		"bitbake.pathToBuildFolder": "${workspaceFolder}/build",
+		"bitbake.pathToEnvScript": "${workspaceFolder}/sources/poky/oe-init-build-env",
+		"bitbake.pathToBitbakeFolder": "${workspaceFolder}/sources/poky/bitbake",
+		"bitbake.shellEnv": {
+			"TEMPLATECONF": "${workspaceFolder}/sources/meta-pe1100n/conf/templates/orin"
+		},
+		"bitbake.parseOnSave": false,
+
+		"files.watcherExclude": {
+			"**/build": true
+		},
+		"search.exclude": {
+			"**/build": true
+		},
+		"C_Cpp.files.exclude": {
+			"**/build": true
+		},
+		"python.analysis.exclude": [
+			"**/build"
+		],
+		"git.repositoryScanIgnoredFolders": [
+			"**/build"
+		],
+
+		"cSpell.enabled": false,
+	}
+}

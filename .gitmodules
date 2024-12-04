@@ -1,0 +1,13 @@
+[submodule "sources/poky"]
+	path = sources/poky
+	url = https://github.com/yoctoproject/poky.git
+	ignore = dirty
+[submodule "sources/meta-tegra"]
+	path = sources/meta-tegra
+	url = https://github.com/OE4T/meta-tegra.git
+[submodule "sources/meta-tegra-community"]
+	path = sources/meta-tegra-community
+	url = https://github.com/OE4T/meta-tegra-community.git
+[submodule "sources/meta-openembedded"]
+	path = sources/meta-openembedded
+	url = https://git.openembedded.org/meta-openembedded
