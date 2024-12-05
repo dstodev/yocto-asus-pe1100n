@@ -68,7 +68,8 @@ does not boot. Adding them in this way allows the device to boot and run.
 
 I found some discussions such as [this one](https://github.com/OE4T/meta-tegra/discussions/1455),
 recommending to "install [the .dtb files] directly" by listing them in SRC_URI,
-but the pattern and related changes to support it are not clear.
+but I do not understand some of the context in which to implement this advice--
+what all file/recipe changes, supporting variable changes, etc. are needed?
 
 ## Test Build
 
