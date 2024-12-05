@@ -15,10 +15,11 @@ added [nvidia-kernel-oot-dtb.bbappend](sources/meta-pe1100n/recipes-kernel/nvidi
 ## Questions
 
 1. What is the recommended approach to use ASUS-provided .dtb, .dts, .dtsi, etc.
-   files with a meta-tegra build?
+   files with a `meta-tegra` build?
 2. Can the recommended approach allow for the ASUS package to be downloaded
    during the build, as we do now, and append to SRC_URI dynamically?
 3. Which files are necessary to include, and where do we include them?
+4. Are there any other changes we should make?
 
 ## Implementation
 
